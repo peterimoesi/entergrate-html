@@ -19,6 +19,9 @@ app.use(bodyParser.json());
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
+app.get('/about-us', function(req, res) {
+    res.sendFile(path.join(__dirname + '/about-us.html'));
+});
 
 app.post('/contact',function(req,res){
     const { email, fullName, message } = req.body;
