@@ -58,13 +58,70 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="./images/nav-logo.png" />
   </head>
+
+  <header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
+      <source src="images/demo_video.mp4" type="video/mp4"> <!-- https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4 -->
+    </video>
+    <div class="container-fluid h-100">     
+      <div class="d-flex h-100 text-center align-items-center">
+          <div id="sidebar">
+               <div class="social facebook">
+                <a href=" https://www.facebook.com/EntergrateFINLAND " target="_blank">
+                  <p>&nbsp Like on Facebook <i class="icon-facebook "></i> </p>
+                </a>
+              </div>
+              <div class="social instagram">
+                <a href=" https://www.instagram.com/entergratefinland " target="_blank">
+                  <p>Follow on Instagram<i class="icon-instagram"></i> </p>
+                </a>
+              </div> 
+              <!-- <div class="social google">
+                <a href=" https://www.plus.google.com " target="_blank">
+                  <p>&nbspAdd on Google+<i class="icon-google-plus"></i> </p>
+                </a>
+              </div>
+              <div class="social youtube">
+                <a href=" https://www.youtube.com " target="_blank">
+                  <p>Subscribe on Youtube<i class=" icon-youtube-play"></i> </p>
+                </a>
+              </div> -->
+              <div class="social linkedin">
+                <a href=" https://www.linkedin.com/company/entergrate " target="_blank">
+                  <p>Connect on LinkedIn <i class="icon-linkedin"></i> </p>
+                </a>
+              </div>
+            </div>
+
+          <div class=" custom_jumbotron jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4">HARNESSING THE POTENTIAL OF IMMIGRANTS</h1>
+                
+                <p class="lead">Empower the skills and potential of immigrants in Finland by providing a wide and versatile professional network where strategic solutions are proffered.</p>                         
+                <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="about-us" role="button">Learn more</a>
+                </p>
+              </div>
+            </div>
+        <!-- <div class="w-100 text-white">
+          <h1 class="display-3">Video Header</h1>
+          <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
+        </div> -->
+      </div>
+    </div>
+
+    
+
+  </header>
+
   <body>
     <nav
       class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
       id="ftco-navbar"
     >
       <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="/">
             <img src="images/nav-logo.png" width="35%" height="35%" alt="logo">
           
         </a>
@@ -80,24 +137,28 @@
           <span class="oi oi-menu"></span> Menu
         </button>
 
-        <div class="collapse navbar-collapse visibility-hidden" id="ftco-nav">
-          <ul class="navbar-nav ml-auto ftco-footer-social list-unstyled float-md-left float-lft">
-              <li class="ftco-animate">
-                <a href="https://www.linkedin.com/company/entergrate" target="_blank"><span class="icon-linkedin"></span></a>
-              </li>
-              <li class="ftco-animate">
-                <a href="https://www.facebook.com/EntergrateFINLAND" target="_blank"><span class="icon-facebook"></span></a>
-              </li>
-              <li class="ftco-animate">
-                <a href="https://www.instagram.com/entergratefinland/" target="_blank"><span class="icon-instagram"></span></a>
-              </li>
+        <div class="collapse navbar-collapse " id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about-us" class="nav-link">About&nbspUs</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="event.html" class="nav-link">Events</a>
+            </li>  -->
+            
           </ul>
         </div>
       </div>
     </nav>
     <!-- END nav -->
 
-    <div
+    <!-- <div
       class="hero-wrap"
       style="background-image: url('images/bg_7.jpeg');"
       data-stellar-background-ratio="0.5"
@@ -118,7 +179,7 @@
             >
               HARNESSING THE POTENTIAL OF IMMIGRANTS IN FINLAND.
             </h1>
-            <!-- <p
+             <p
               class="mb-5"
               data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
             >
@@ -134,65 +195,11 @@
                 class="btn btn-white btn-outline-white px-4 py-3 popup-vimeo"
                 ><span class="icon-play mr-2"></span>Watch Video</a
               >
-            </p> -->
+            </p> 
           </div>
         </div>
       </div>
-    </div>
-
-    <section class="ftco-counter ftco-intro" id="section-counter">
-      <div class="container">
-        <div class="row no-gutters">
-          <div
-            class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate"
-          >
-            <div class="block-18 color-1 align-items-stretch">
-              <div class="text">
-                <span>Memberships count</span>
-                <strong class="number" data-number="15">0</strong>
-                <span>Currently operating in Helsinki region. </span>
-              </div>
-            </div>
-          </div>
-          <!-- <div
-            class="col-md d-flex justify-content-center counter-wrap ftco-animate"
-          >
-            <div class="block-18 color-2 align-items-stretch">
-              <div class="text">
-                <h3 class="mb-4">Donate Money</h3>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts.
-                </p>
-                <p>
-                  <a href="#" class="btn btn-white px-3 py-2 mt-2"
-                    >Donate Now</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div> -->
-          <div
-            class="col-md d-flex justify-content-center counter-wrap ftco-animate"
-          >
-            <div class="block-18 color-3 align-items-stretch">
-              <div class="text">
-                <h3 class="mb-4">Become a Volunteer</h3>
-                <p>
-                  Entergrate currently operates fully on the commitment of its members. Regardless your background, we mostly value your
-                  level of commitment to support Entergrate purpose and mission. Most welcome to join.
-                </p>
-                <p>
-                  <a href="#section_contactus" class="btn btn-white px-3 py-2 mt-2"
-                    >Become A Volunteer</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div> -->
 
     <section class="ftco-section">
       <div class="container">
@@ -232,7 +239,7 @@
               <div class="media-body pl-4">
                 <h3 class="heading">Our vision</h3>
                 <p>
-                    Harnessing the skills and potential of immigrants in Finland by providing a wide and versatile professional network where strategic solutions are proffered.
+                    Empower the skills and potential of immigrants in Finland by providing a wide and versatile professional network where strategic solutions are proffered.
                 </p>
               </div>
             </div>
@@ -618,42 +625,198 @@
           </div>
         </div>
         <div class="row">
-          <div class="offset-md-4 col-md-4 d-flex ftco-animate">
+
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="blog-entry align-self-stretch">
+                  <a
+                    href="blog-single.html"
+                    class="block-20"
+                    style="background-image: url('images/event-5.jpg');"
+                  >
+                  </a>
+                  <div class="text p-4 d-block">
+                    <div class="meta mb-3">
+                      <div><a href="#">May 01, 2019</a></div>
+                      <!-- <div><a href="#">Admin</a></div> -->
+                      <!-- <div>
+                        <a href="#" class="meta-chat"
+                          ><span class="icon-chat"></span> 3</a
+                        >
+                      </div> -->
+                    </div>
+                    <h3 class="heading mb-4">
+                      <a href="#">Vappu hangouts</a>
+                    </h3>
+                    <p class="time-loc">
+                      <!-- <span class="mr-2"
+                        ><i class="icon-clock-o"></i> 10:30AM-03:30PM</span
+                      > -->
+                      <span><i class="icon-map-o"></i> Kaivopouisto</span>
+                    </p>
+                    <p>
+                      Entergrate welcom you to its hangout evening at kaivopuisto on May 01 2019.
+                      Feel free to stop by and share your story with us.  
+                    </p>
+                    <p>
+                      <a href="#footer"
+                        >Want to reach out for more infos <i class="ion-ios-arrow-forward"></i
+                      ></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+          <div class="col-md-8 d-flex ftco-animate">
+              <div class="blog-entry align-self-stretch">
+                <a
+                  href="blog-single.html"
+                  class="block-20"
+                  style="background-image: url('images/event-1a.jpg');"
+                >
+                </a>
+                <div class="text p-4 d-block">
+                  <div class="meta mb-3">
+                    <div><a href="#">May. 22, 2019</a></div>
+                    <!--<div><a href="#">Admin</a></div> 
+                    <div>
+                      <a href="#" class="meta-chat"
+                        ><span class="icon-chat"></span> 3</a
+                      >
+                    </div> -->
+                  </div>
+                  <h3 class="heading mb-4">
+                    <a href="#">In The Spotlight - Overcoming work discrimination</a>
+                  </h3>
+                  <p class="time-loc">
+                    <span class="mr-2"
+                      ><i class="icon-clock-o"></i> 05:30PM - 07:30PM</span
+                    >
+                    <span><i class="icon-map-o"></i> Maria 01,</br>
+                       16 Lapinlahdenkatu 00180 Helsinki</span>
+                  </p>
+                  <p>
+                    Entergrate Finland welcomes you to the 2nd session of the -In the Spotlight- series.A forum purposely 
+                    for examining issues and topics that affect the welfare of immigrants 
+                    in Finland.                     
+                  </p> 
+                  <p>
+                      <a href="https://www.facebook.com/events/668663903588651/?ti=ia" target="_blank"
+                        >Join Event <i class="ion-ios-arrow-forward"></i
+                      ></a>
+                    </p>              
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- End Upcoming events-->
+
+    <!-- Blogs-->
+    <!-- <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-4">Recent from blog</h2>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
             <div class="blog-entry align-self-stretch">
               <a
                 href="blog-single.html"
                 class="block-20"
-                style="background-image: url('images/cause-2a.jpg');"
+                style="background-image: url('images/image_1.jpg');"
               >
               </a>
               <div class="text p-4 d-block">
                 <div class="meta mb-3">
-                  <div><a href="#">May 22, 2019</a></div>
+                  <div><a href="#">Sept 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div>
+                    <a href="#" class="meta-chat"
+                      ><span class="icon-chat"></span> 3</a
+                    >
+                  </div>
                 </div>
-                <h3 class="heading mb-4">
-                  <a href="#">In the spotlight</a>
+                <h3 class="heading mt-3">
+                  <a href="#">Hurricane Irma has devastated Florida</a>
                 </h3>
-                <p class="time-loc">
-                  <span class="mr-2"
-                    ><i class="icon-clock-o"></i> 05:30PM-08:30PM</span
-                  >
-                  <span><i class="icon-map-o"></i> Maria 01, 16 Lapinlahdenkatu</span>
-                </p>
                 <p>
-                  In the Spotlight series focuses on issues affecting the welfare of immigrants in Finland, and helping local communities relate to them
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia.
                 </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a
+                href="blog-single.html"
+                class="block-20"
+                style="background-image: url('images/image_2.jpg');"
+              >
+              </a>
+              <div class="text p-4 d-block">
+                <div class="meta mb-3">
+                  <div><a href="#">Sept 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div>
+                    <a href="#" class="meta-chat"
+                      ><span class="icon-chat"></span> 3</a
+                    >
+                  </div>
+                </div>
+                <h3 class="heading mt-3">
+                  <a href="#">Hurricane Irma has devastated Florida</a>
+                </h3>
                 <p>
-                  
-                  <a href="https://www.eventbrite.com/e/in-the-spotlight-by-entergrate-tickets-59749166365?aff=efbeventtix&fbclid=IwAR2jburFMrj6OqDtZJwIlL5bkecP_koGmspcLxY1M7Qkz1Q58SrtlGNMMfg">
-                    Join Event <i class="ion-ios-arrow-forward"></i
-                  ></a>
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a
+                href="blog-single.html"
+                class="block-20"
+                style="background-image: url('images/image_3.jpg');"
+              >
+              </a>
+              <div class="text p-4 d-block">
+                <div class="meta mb-3">
+                  <div><a href="#">Sept 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div>
+                    <a href="#" class="meta-chat"
+                      ><span class="icon-chat"></span> 3</a
+                    >
+                  </div>
+                </div>
+                <h3 class="heading mt-3">
+                  <a href="#">Hurricane Irma has devastated Florida</a>
+                </h3>
+                <p>
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+    <!--End blogs -->
+
+
+    <!-- Passed events-->
 
     <section class="ftco-section bg-light">
       <div class="container">
@@ -787,8 +950,8 @@
             ></div>
           </div>
           <div class="col-md-6 volunteer pl-md-5 ftco-animate">
-            <h3 class="mb-3" id="notify-user">Be a volunteer</h3>
-            <form class="volunter-form" method="POST" id="volunter-form">
+            <h3 class="mb-3">Be a volunteer</h3>
+            <form  class="volunter-form" method="POST" id="volunter-form">
               <div class="form-group">
                 <input
                   type="text"
@@ -829,7 +992,7 @@
       </div>
     </section>
 
-    <footer class="ftco-footer ftco-section img">
+    <footer class="ftco-footer ftco-section img" id="footer">
       <div class="overlay"></div>
       <div class="container">
         <div class="row mb-5">
@@ -920,9 +1083,9 @@
               <h2 class="ftco-heading-2">Site Links</h2>
               <ul class="list-unstyled">
                 <li><a href="#" class="py-2 d-block">Home</a></li>
-                <li><a href="#" class="py-2 d-block">Blog</a></li>
-                <li><a href="#" class="py-2 d-block">Events</a></li>
-                <li><a href="#" class="py-2 d-block">Contact Us</a></li>              
+                <li><a href="about-us" class="py-2 d-block">About Us</a></li>
+                <!-- <li><a href="#" class="py-2 d-block">Events</a></li>
+                <li><a href="#" class="py-2 d-block">Contact Us</a></li>    -->           
               </ul>
             </div>
           </div>
@@ -944,10 +1107,9 @@
                     
                   </li>
                   <li>
-                    <a href="#"
-                      ><span class="icon icon-envelope"></span
-                      ><span class="text">info@entergrate.org</span></a
-                    >
+                    <span class="icon icon-envelope"></span>
+                    <span class="text">info@entergrate.org</span>
+                    
                   </li>
                 </ul>
               </div>
